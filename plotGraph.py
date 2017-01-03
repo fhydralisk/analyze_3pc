@@ -48,7 +48,7 @@ def plot_recounts(plotting):
         legends_rect_aid.append(rect[0])
 
     ax.set_xlim(-width,len(ind)+width)
-    ax.set_ylabel('time(ms)')
+    ax.set_ylabel('time(us)')
     ax.set_title('commit timing report')
     ax.set_xticks(ind+width)
     xtickNames = ax.set_xticklabels(title_group)
